@@ -1,6 +1,8 @@
 # HOW IS THE SKY
 This react js app is consuming the backend app to get weather/forecast data from multiple data sources
 
+![](/example_of_how_it_looks.png)
+
 ## How to run
 1- `npm install`
 
