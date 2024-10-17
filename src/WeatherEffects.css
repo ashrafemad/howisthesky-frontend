@@ -1,0 +1,118 @@
+.weather-data {
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    /* Max width for larger screens */
+    margin: 20px auto;
+    /* Center the container */
+}
+
+.weather-info {
+    display: flex;
+    /* Use flexbox for horizontal layout */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.weather-image {
+    width: 150px;
+    /* Set a fixed width for the image */
+    height: auto;
+    /* Keep the aspect ratio */
+    margin-right: 20px;
+    /* Space between the image and text */
+    border-radius: 8px;
+    /* Optional: add rounded corners */
+}
+
+.weather-details {
+    flex-grow: 1;
+    /* Allow text section to take remaining space */
+}
+
+.city-name {
+    font-family: 'Lobster', cursive;
+    /* Or another catchy font */
+    font-size: 2rem;
+    /* Font size for the city name */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.temperature,
+.weather-description,
+.humidity {
+    font-size: 1.2rem;
+    /* Font size for the weather details */
+    margin: 5px 0;
+    /* Space between the paragraphs */
+}
+
+.weather-list-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.weather-row {
+    display: flex;
+    flex-direction: column;
+    /* Stack city name and image */
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    flex-grow: 1;
+    min-width: 250px;
+}
+
+.weather-row-date {
+    text-align: center;
+}
+
+.weather-row-image {
+    width: 80px;
+    height: auto;
+}
+
+.weather-row-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-row-date-name {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.weather-row-temperature,
+.weather-row-description,
+.weather-row-humidity {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.question-heading {
+    font-size: 2.5rem;
+    /* Larger font size for prominence */
+    color: #ffffff;
+    /* Bright blue color */
+    font-weight: bold;
+    /* Bold text to stand out */
+    text-align: center;
+    /* Centered text */
+    text-transform: uppercase;
+    /* Optional: Makes the text uppercase for impact */
+    letter-spacing: 1px;
+    /* Adds spacing between letters for style */
+    text-shadow: 3px 3px 10px black;
+}
